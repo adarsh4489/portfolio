@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/standing-2.png";
-import { BsDownload } from "react-icons/bs";
+// import { BsDownload } from "react-icons/bs";
 
 function about() {
   return (
@@ -16,32 +16,29 @@ function about() {
             strong background in creating dynamic and responsive websites. I
             thrive on challenges and take pride in delivering innovative web
             solutions that exceed client expectations.
-            </p>
-            <p>
-                
-              With 2 years of personal experience in the field, I have honed my
-              skills in front-end and currenty acquiring skills in back-end
-              development and creating seamless user experiences.
-              </p><br />
+          </p>
+          <p>
+            With 2 years of personal experience in the field, I have honed my
+            skills in front-end and currenty acquiring skills in back-end
+            development and creating seamless user experiences.
+          </p>
+          <br />
 
-              <p>
-
-               I am
-              proficient in a variety of web technologies, including: <br /> 
-              Front-end:
-              HTML, CSS, JavaScript, React, 
-              <br />Back-end: Node.js, Express 
-              <br />Databases: MySQL Version Control: Git, GitHub Responsive
-              <br />Design: Bootstrap, Tailwind CSS
-              <br /> Deployment & Hosting: Netlify
-    
-            </p><br />
-         </div>
+          <p>
+            I am proficient in a variety of web technologies, including: <br />
+            Front-end: HTML, CSS, JavaScript, React,
+            <br />
+            Back-end: Node.js, Express
+            <br />
+            Databases: MySQL Version Control: Git, GitHub Responsive
+            <br />
+            Design: Bootstrap, Tailwind CSS
+            <br /> Deployment & Hosting: Netlify
+          </p>
+          <br />
+        </div>
       </div>
-      </div>
-    
+    </div>
   );
 }
 export default about;
-
-

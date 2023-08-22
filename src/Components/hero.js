@@ -4,7 +4,6 @@ import logo from "../images/Sitting.png";
 function hero() {
   return (
     <>
-
       <div className="flex flex-row justify-between bg-blue-300">
         <div className="flex flex-col py-16 mx-24">
           <h2 className="py-2 text-4xl font-semibold text-yellow-400">
@@ -23,7 +22,7 @@ function hero() {
             accusantium officia dolores quas inventore?
           </p>
           <button className="bg-slate-900 w-40 p-3 my-4 mx-1 rounded-lg text-white">
-            <a href="">Download Resume</a>
+            <a href="/">Download Resume</a>
           </button>
         </div>
 

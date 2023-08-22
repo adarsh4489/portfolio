@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "../Components/card";
 
-
 function projects() {
   return (
     <div className="bg-blue-300 py-8">

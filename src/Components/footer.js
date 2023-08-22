@@ -5,23 +5,23 @@ function footer() {
     <>
       <div className="flex flex-col bg-slate-800">
         <div className="flex flex-row justify-center gap-20 font-semibold text-lg my-4 pt-6  text-white">
-          <a href="">
+          <a href="/">
             {" "}
             <span> Home </span>{" "}
           </a>
-          <a href="">
+          <a href="/">
             {" "}
             <span> About </span>{" "}
           </a>
-          <a href="">
+          <a href="/">
             {" "}
             <span> Projects </span>{" "}
           </a>
-          <a href="">
+          <a href="/">
             {" "}
             <span> contact </span>{" "}
           </a>
-          <a href="">
+          <a href="/">
             {" "}
             <span> Download resume </span>{" "}
           </a>
@@ -32,28 +32,28 @@ function footer() {
             <div className="flex-1 flex flex-col gap-2 p-4 text-white text-center ">
               <h2 className="text-3xl font-semibold">Technologies</h2>
               <span>
-                <a href="">HTML</a>
+                <a href="/">HTML</a>
               </span>
               <span>
-                <a href="">CSS</a>
+                <a href="/">CSS</a>
               </span>
               <span>
-                <a href="">Javascrit</a>
+                <a href="/">Javascrit</a>
               </span>
               <span>
-                <a href="">Bootstrap</a>
+                <a href="/">Bootstrap</a>
               </span>
               <span>
-                <a href="">React</a>
+                <a href="/">React</a>
               </span>
               <span>
-                <a href="">Tailwind CSS</a>
+                <a href="/">Tailwind CSS</a>
               </span>
               <span>
-                <a href="">My SQL</a>
+                <a href="/">My SQL</a>
               </span>
               <span>
-                <a href="">Node Js</a>
+                <a href="/">Node Js</a>
               </span>
             </div>
 
@@ -103,7 +103,7 @@ function footer() {
             <div className="flex flex-1 p-4 flex-col gap-3 text-white text-center ">
               <h2 className="text-3xl font-semibold">coding profiles</h2>
               <span>
-                <a href="">gfg</a>
+                <a href="/">gfg</a>
               </span>
               <span>leetcode</span>
               <span>hackerrank</span>
