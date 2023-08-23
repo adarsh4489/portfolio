@@ -1,29 +1,29 @@
 import React from "react";
-import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsMailbox2 } from "react-icons/bs";
 function footer() {
   return (
     <>
-      <div className="flex flex-col bg-slate-800">
+      <div id="footer" className="flex flex-col bg-slate-800">
         <div className="flex flex-row justify-center gap-20 font-semibold text-lg my-4 pt-6  text-white">
           <a href="/">
             {" "}
-            <span> Home </span>{" "}
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Home </span>{" "}
           </a>
           <a href="/">
             {" "}
-            <span> About </span>{" "}
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> About </span>{" "}
           </a>
           <a href="/">
             {" "}
-            <span> Projects </span>{" "}
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Projects </span>{" "}
           </a>
           <a href="/">
             {" "}
-            <span> contact </span>{" "}
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> contact </span>{" "}
           </a>
-          <a href="/">
+          <a href="https://drive.google.com/file/d/1bGFdjWVguHYPdWOBG6-X9DdFSHgLfnbk/view?usp=sharing">
             {" "}
-            <span> Download resume </span>{" "}
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Download resume </span>{" "}
           </a>
         </div>
 
@@ -31,28 +31,28 @@ function footer() {
           <div class="flex w-full">
             <div className="flex-1 flex flex-col gap-2 p-4 text-white text-center ">
               <h2 className="text-3xl font-semibold">Technologies</h2>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">HTML</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">CSS</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">Javascrit</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">Bootstrap</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">React</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">Tailwind CSS</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">My SQL</a>
               </span>
-              <span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
                 <a href="/">Node Js</a>
               </span>
             </div>
@@ -102,13 +102,20 @@ function footer() {
 
             <div className="flex flex-1 p-4 flex-col gap-3 text-white text-center ">
               <h2 className="text-3xl font-semibold">coding profiles</h2>
-              <span>
-                <a href="/">gfg</a>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+                <a href="https://auth.geeksforgeeks.org/user/ad4489">Geeks For Geeks</a>
               </span>
-              <span>leetcode</span>
-              <span>hackerrank</span>
-              <span>codechef</span>
-              <span>codeforces</span>
+             
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+                {" "}
+                <a href="https://www.hackerrank.com/mishraadarshkum1">
+                  Hackerrank{" "}
+                </a>
+              </span>
+              <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+                <a href="https://www.codechef.com/users/ad4489">Codechef</a>
+              </span>
+             
             </div>
           </div>
         </div>
@@ -124,11 +131,12 @@ function footer() {
               <BsLinkedin />
             </a>
           </span>
-          <span>
+          <span >
             <a href="https://www.instagram.com/mishra_ad0111/?igshid=MzRlODBiNWFlZA%3D%3D">
               <BsInstagram />
             </a>
           </span>
+          
         </div>
 
         <div className="flex my-4 justify-center">

@@ -1,33 +1,32 @@
 import React from "react";
-// import footer from "./footer";
-// import hero from "./hero";
-// import about from "./about";
-// import projects from "./projects";
 
 function navbar() {
   return (
     <>
-      <div className="flex justify-start py-4 bg-slate-800 text-white gap-32">
+      <div className="flex justify-start py-4 bg-slate-800 text-white font-bold gap-28 ">
         <span>
           <a href="/" className="ml-8 mr-32 text-xl font-bold">
             My Portfolio
           </a>
         </span>
-        <span>
-          <a href="/">Home</a>
+        <span className="px-2 hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+          <a href="#home">Home</a>
         </span>
-        <span>
-          <a href="/">About</a>
+        <span className="px-2 hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+          <a href="#about">About</a>
         </span>
-        <span>
-          <a href="/">Projects</a>
+        <span className="px-2 hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+          <a href="#project">Projects</a>
         </span>
-        <span>
-          <a href="/">Contact me</a>
+        <span className="px-2 hover:bg-white hover:rounded-lg hover:text-blue-900 ">
+          <a href="#footer">Contact me</a>
         </span>
-        <span>
-          <a href="/" className="ml-28">
-            logo
+        <span className="px-2 hover:bg-white hover:rounded-lg hover:text-blue-900 ml-24 ">
+          <a
+            href="https://drive.google.com/file/d/1bGFdjWVguHYPdWOBG6-X9DdFSHgLfnbk/view?usp=sharing"
+            
+          >
+            Resume
           </a>
         </span>
       </div>
