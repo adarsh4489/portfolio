@@ -1,5 +1,5 @@
 import React from "react";
-import { BsGithub, BsInstagram, BsLinkedin, BsMailbox2 } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 function footer() {
   return (
     <>
@@ -121,21 +121,21 @@ function footer() {
         </div>
 
         <div className="flex flex-row justify-center gap-10  text-white">
-          <span>
+          <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
             <a href="https://github.com/adarsh4489">
               <BsGithub />
             </a>
           </span>
-          <span>
+          <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
             <a href="https://www.linkedin.com/in/adarsh-mishra-ad/">
               <BsLinkedin />
             </a>
           </span>
-          <span >
+          <span  className=" hover:bg-white hover:rounded-lg hover:text-blue-900 ">
             <a href="https://www.instagram.com/mishra_ad0111/?igshid=MzRlODBiNWFlZA%3D%3D">
               <BsInstagram />
             </a>
-          </span>
+          </span >
           
         </div>
 
