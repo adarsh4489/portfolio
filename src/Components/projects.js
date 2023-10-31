@@ -7,17 +7,16 @@ function projects() {
       <h2 className="text-center text-3xl font-bold">Projects</h2>
       <div className="flex flex-row gap-8 mx-6 my-6">
         <Card
-          heading="BookMania"
-          description="A book review website where we can see books along with description
-        developed using Html Css and bootstrap  "
-          githubLink="https://github.com/adarsh4489"
-          livelink="https://github.com/adarsh4489"
+          heading="Bhraman"
+          description="Alanding page for travl website developed using Tailwind CSS "
+          githubLink="https://github.com/adarsh4489/Bhraman"
+          livelink="https://landing-page-bhraman.netlify.app/"
         />
         <Card
           heading="Microsoft-clone"
           description="Developed a responsive home page of microsoft website using tailwind css."
-          githubLink="https://github.com/adarsh4489"
-          livelink="https://github.com/adarsh4489"
+          githubLink="https://github.com/adarsh4489/microsoft-clone"
+          livelink="https://microsoft-homepage-clone-byad.netlify.app/"
         />
         <Card
           heading="Weather page"
@@ -32,7 +31,9 @@ function projects() {
           <button className="text-center py-2 px-6 rounded-lg font-bold  hover:bg-blue-600 hover:opacity-80 hover:text-black text-white text-lg bg-blue-800 ">
             More
           </button>
-          <p className="text-sm">For more projects visit my GitHub page</p>
+          <p className="text-lg font-semibold">
+            For more projects visit my GitHub page
+          </p>
         </a>
       </div>
     </div>

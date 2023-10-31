@@ -5,25 +5,25 @@ function footer() {
     <>
       <div id="footer" className="flex flex-col bg-slate-800">
         <div className="flex flex-row justify-center gap-20 font-semibold text-lg my-4 pt-6  text-white">
-          <a href="/">
-            {" "}
+          <a href="#home">
+            
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Home </span>{" "}
           </a>
-          <a href="/">
-            {" "}
+          <a href="#about">
+           
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> About </span>{" "}
           </a>
-          <a href="/">
-            {" "}
+          <a href="projects">
+            
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Projects </span>{" "}
           </a>
-          <a href="/">
-            {" "}
+          <a href="#contact">
+            
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> contact </span>{" "}
           </a>
           <a href="https://drive.google.com/file/d/1bGFdjWVguHYPdWOBG6-X9DdFSHgLfnbk/view?usp=sharing">
-            {" "}
-            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Download resume </span>{" "}
+           
+            <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Download resume </span>
           </a>
         </div>
 
