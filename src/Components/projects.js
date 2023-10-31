@@ -3,7 +3,7 @@ import Card from "../Components/card";
 
 function projects() {
   return (
-    <div id="project" className="bg-blue-300 py-8">
+    <div id="projects" className="bg-blue-300 py-8">
       <h2 className="text-center text-3xl font-bold">Projects</h2>
       <div className="flex flex-row gap-8 mx-6 my-6">
         <Card

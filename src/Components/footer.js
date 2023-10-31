@@ -5,7 +5,7 @@ function footer() {
     <>
       <div id="footer" className="flex flex-col bg-slate-800">
         <div className="flex flex-row justify-center gap-20 font-semibold text-lg my-4 pt-6  text-white">
-          <a href="#home">
+          <a href="#hero">
             
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Home </span>{" "}
           </a>
@@ -13,7 +13,7 @@ function footer() {
            
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> About </span>{" "}
           </a>
-          <a href="projects">
+          <a href="#projects">
             
             <span className=" hover:bg-white hover:rounded-lg hover:text-blue-900 px-2"> Projects </span>{" "}
           </a>
